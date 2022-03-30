@@ -11,4 +11,4 @@ train-other-500.tar.gz [30G]   (training set of 500 hours "other" speech )   Mir
    b. the output file name is in line 80: 'librispeech_tr100_cut'.
 
 3. Run run_dataloader to test. <br>
-   a. input_json in line 43 should be changed to the name of the output file generated in step 2.
+   a. input_json in line 43 should be changed to the directory of the output file generated in step 2.
